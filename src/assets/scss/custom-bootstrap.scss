@@ -1,0 +1,32 @@
+//1- Override bootstrap sass variables here.
+//Complete list could be find at (scss/_variables.scss)
+$body-bg: #fdd;
+$body-color: #220;
+
+$theme-colors: (
+  "primary": #ff22cc,
+  "danger": #ff4136
+);
+
+//2- Add the bootstrap.scss all bootstrap styles are included in this file
+@import "~bootstrap/scss/bootstrap";
+
+//###################################################################################
+
+//If you want to go one step dipper, comment above @import  and add bootstrap internal
+//sass files one by one. 
+//Remember that some of the are required and some are optional 
+
+// Required
+//@import "~bootstrap/scss/functions";
+//@import "~bootstrap/scss/variables";
+//@import "~bootstrap/scss/mixins";
+
+// Optional Can be changed complete list at scss/bootstrap.scss
+// Some example
+// @import "~bootstrap/scss/reboot";
+// @import "~bootstrap/scss/type";
+// @import "~bootstrap/scss/images";
+// @import "~bootstrap/scss/code";
+// @import "~bootstrap/scss/grid";
+// @import "~bootstrap/scss/navbar";
