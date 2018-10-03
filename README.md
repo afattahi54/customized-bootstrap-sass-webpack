@@ -65,6 +65,7 @@ In this configuration the webpack loads images ( see: `test: /\.(png|jpg|gif|svg
 
 ```bash
 cd customized-bootstrap-sass-webpack
+npm install
 npm run start
 ```
 
